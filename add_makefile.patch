@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index f959713..1e45e74 100644
+--- a/Makefile
++++ b/Makefile
+@@ -41,3 +41,6 @@ endif
+ 
+ cffi_imports: pypy-c
+ 	PYTHONPATH=. ./pypy-c pypy/tool/build_cffi_imports.py
++
++install:
++	python  -c "print 0"
++# end patch
