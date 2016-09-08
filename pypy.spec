@@ -6,7 +6,7 @@ Release  : 1
 Source0  : https://bitbucket.org/pypy/pypy/downloads/%{name}2-v%{version}-src.tar.bz2
 Summary  : Python implementation with a tracing JIT compiler
 Group    : Development/Tools
-License  : MIT UCD Python-2.0 Apache-2.0 TCL gdbm
+License  : MIT Python-2.0 Apache-2.0 TCL
 URL      : http://pypy.org
 
 #Additional sources, patches and customiztions
