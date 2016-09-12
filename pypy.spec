@@ -2,7 +2,7 @@
 
 Name     : pypy
 Version  : 5.3.1
-Release  : 3
+Release  : 4
 Source0  : https://bitbucket.org/pypy/pypy/downloads/pypy2-v5.3.1-src.zip
 Summary  : Python implementation with a tracing JIT compiler
 Group    : Development/Tools
