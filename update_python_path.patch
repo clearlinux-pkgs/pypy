@@ -1,0 +1,9 @@
+diff -uNrp pypy2-v5.3.1-src/lib-python/2.7/cgi.py pypy2-v5.3.1-src.p/lib-python/2.7/cgi.py
+--- pypy2-v5.3.1-src/lib-python/2.7/cgi.py	2016-06-14 00:46:04.000000000 -0700
++++ pypy2-v5.3.1-src.p/lib-python/2.7/cgi.py	2016-09-13 13:38:43.001958250 -0700
+@@ -1,4 +1,4 @@
+-#! /usr/local/bin/python
++#! /usr/bin/env python
+ 
+ # NOTE: the above "/usr/local/bin/python" is NOT a mistake.  It is
+ # intentionally NOT "/usr/bin/env python".  On many systems
