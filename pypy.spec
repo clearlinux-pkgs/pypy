@@ -1,9 +1,9 @@
 # Build PyPy without autospec
 
 Name     : pypy
-Version  : 5.3.1
+Version  : 5.4.1
 Release  : 6
-Source0  : https://bitbucket.org/pypy/pypy/downloads/pypy2-v5.3.1-src.zip
+Source0  : https://bitbucket.org/pypy/pypy/downloads/pypy2-v5.4.1-src.zip
 Summary  : Python implementation with a tracing JIT compiler
 Group    : Development/Tools
 License  : MIT Python-2.0 Apache-2.0 TCL
@@ -76,7 +76,7 @@ Header files for building PyPy C extension modules
 RPM_BUILD_ROOT= \
 PYPY_USESSION_DIR=$(pwd) \
 PYPY_USESSION_BASENAME=%{name} \
-python rpython/bin/rpython -O2 pypy/goal/targetpypystandalone.py
+python rpython/bin/rpython -Ojit pypy/goal/targetpypystandalone.py
 
 #Builds cffi modules
 PYTHONPATH=. ./pypy-c pypy/tool/build_cffi_imports.py
