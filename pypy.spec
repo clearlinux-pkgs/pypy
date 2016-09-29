@@ -13,6 +13,7 @@ URL      : http://pypy.org
 Patch0: add_library_link_logic.patch
 Patch1: add_makefile.patch
 Patch2: update_python_path.patch
+Patch3: add_gupb_spambayes.patch
 #turn off brp-python-bytecompile
 %global __os_install_post %(echo '%{__os_install_post}' | sed -e 's!/usr/lib[^[:space:]]*/brp-python-bytecompile[[:space:]].*$!!g')
 
@@ -69,6 +70,7 @@ Header files for building PyPy C extension modules
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
+%patch3 -p1
 
 %build
 
